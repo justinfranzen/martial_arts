@@ -135,7 +135,6 @@ p {
     left: 0;
     right: 0;
     text-align: center;
-    color: white;
     -webkit-text-stroke: 1.2px #008B8B;
 }
 
@@ -428,7 +427,7 @@ figcaption {
     right: 0;
     text-align: center;
     color: white;
-    -webkit-text-stroke: 1.2px #008B8B;
+    -webkit-text-stroke: 1.5px midnightblue;
 }
     
     #h1 {
