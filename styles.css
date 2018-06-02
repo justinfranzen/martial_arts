@@ -1,0 +1,918 @@
+#wrapper {
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background: transparent;
+    margin: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.transition {
+    transition-duration: .5s;
+}
+
+#gallery {
+    padding-top: 120px;
+}
+
+#h1 {
+    margin-left: 3%;
+    font-size: 50px;
+    padding-top: 3px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+    color: midnightblue;
+}
+
+.inner-h2-home {
+    padding: 50px 0 50px 0;
+    position: relative;
+    background: #008B8B;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    margin-top: 0 !important;
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+
+.inner-h2 {
+    position: relative;
+    background: #008B8B;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    margin-top: 0 !important;
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    padding: 150px 0 50px 0;
+}
+
+h2 {
+    font-weight: 600 !important;
+    font-familY: 'Carrois Gothic SC', sans-serif !important;
+    margin-top: 50px !important;
+}
+
+h3 {
+    font-size: 28px !important;
+}
+
+#main-nav-bar {
+    margin-top: -45px;
+    height: 50px;
+    text-align: center;
+    float: right;
+    margin-right: 1%;
+}
+
+.main-nav {
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 10px 5px;
+    margin-top: -11px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 17px;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.main-nav li a:hover {
+    color: gray;
+}
+
+.dropdown {
+    display: none;
+}
+
+.icon{
+     display:none;
+    }
+
+#home-content {
+    margin-top: 50px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+#content {
+    margin-top: 60px;
+}
+
+#home-content, #content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#home-img {
+    background-image: url("../images/ma.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#img-title {
+    position: absolute;
+    margin-top: 200px;
+    font-size: 46px;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1.2px #008B8B;
+}
+
+#inner-content {
+    width: 90%;
+    margin: 75px auto 100px auto;
+}
+
+.centered {
+    
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.centered {
+    width: 100%;
+    background: lightgray;
+    text-align: center;
+    margin-top: -30px;
+    border-top: 1.5px solid #008B8B;
+    border-bottom: 1.5px solid #008B8B;
+    padding: 60px 0 90px 0 !important;
+}
+
+.techniques {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.technique {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 250px;
+}
+
+.rank-img {
+    width: 300px;
+    max-width: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+#form-info {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.forms {
+    background: lightgray;
+    padding: 100px 0;
+}
+
+#advance-form {
+    width: 90%;
+    margin-top: 45px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#toggle1, #toggle2, #toggle3 {
+    background-color: #008B8B;
+    padding: 15px;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px -1px black;
+    border-radius: 10px;
+    width: 120px;
+}
+
+#toggle1:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    transition-duration: .5s;
+}
+
+#toggle1:not(:hover){
+    transition:scale(1,1);
+    transition-duration: .5s;
+}
+
+#toggle2:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    transition-duration: .5s;
+}
+
+#toggle2:not(:hover){
+    transition:scale(1,1);
+    transition-duration: .5s;
+}
+
+#toggle3:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    transition-duration: .5s;
+}
+
+#toggle3:not(:hover){
+    transition:scale(1,1);
+    transition-duration: .5s;
+}
+
+.hidden1, .hidden2, .hidden3 {
+    display: none;
+}
+
+.centered2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#style-rankings {
+    height: 250px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ranks {
+    margin: 0 auto;
+}
+
+.beltRank li {
+    list-style-type: none;
+}
+
+#form {
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0px 10px 15px 5px gray;
+}
+
+.form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.benefit-bgcolor {
+    background: rgba(128,128,128, .3);
+    padding: 0 60px 100px 30px;
+}
+
+#benefit {
+    margin-top: 50px;
+    font-family: 'Carrois Gothic SC', sans-serif !important;
+}
+
+.benefit {
+    margin-top: 100px;
+    font-family: 'Carrois Gothic SC', sans-serif !important;
+}
+
+.benefit-img, .benefit-img-left {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.benefit-img-left {
+    margin-top: 100px;
+}
+
+#footer {
+    height: 150px;
+    background: navy;
+    width: 100%;
+}
+
+.more-info {
+    text-align: center;
+    color: white;
+}
+
+#other-info {
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+#other-info li {
+    margin-left: auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+#other-info li a {
+    color: white;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 2000px) {
+    .dropdown {
+    display: none;
+}
+    .icon{
+            display:none;
+        }
+    
+    .centered {
+    margin-bottom: 50px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+     
+    #main-nav-bar {
+        display: none;
+    }
+    
+    .icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        background: white;
+    }
+    
+    .dropbtn {
+            background-color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: -5px;
+            margin-right: -20px;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: white;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: inline-block;
+        margin-right: 5%;
+        margin-top: -50px;
+        float:right;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: lightgray;
+        font-family: 'Carrois Gothic SC', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-top: 27px;
+        height: 320px;
+        width: auto;
+        left: 0;
+        right: 0;
+    }
+
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 11px;
+    }
+    
+    .dropdown-content a:hover {
+        background:white;
+        text-decoration: none;
+    }
+    
+#img-title {
+    position: absolute;
+    margin-top: 200px;
+    font-size: 46px;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1.2px #008B8B;
+}
+    
+    #h1 {
+    margin-left: 3%;
+    font-size: 50px;
+    padding-top: 3px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+    color: midnightblue;
+}
+    
+    main-nav-bar {
+        margin-top: -45px;
+        height: 50px;
+        text-align: center;
+        float: right;
+        margin-right: 2%;
+    }
+    
+    .main-nav li {
+    display: inline-block;
+    padding: 10px 5px;
+    margin-top: -11px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 15px;
+}
+    
+    .centered {
+    margin-bottom: 50px;
+}
+    
+#words {
+    margin-top: 20%;
+    font-size: 36px;
+}
+    
+}
+
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+    
+    #main-nav-bar {
+        display: none;
+    }
+    
+    #h1 {
+    margin-left: 2%;
+    font-size: 50px;
+    padding-top: 3px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+    color: midnightblue;
+}
+    
+    .icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        background: white;
+    }
+    
+    .dropbtn {
+            background-color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: -5px;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: white;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: inline-block;
+        margin-right: 3%;
+        margin-top: -50px;
+        float:right;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: lightgray;
+        font-family: 'Carrois Gothic SC', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-top: 27px;
+        height: 320px;
+        width: auto;
+        left: 0;
+        right: 0;
+    }
+
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 11px;
+    }
+    
+    .dropdown-content a:hover {
+        background:white;
+        text-decoration: none;
+    }
+    
+#words {
+    margin-top: 22%;
+    font-size: 32px;
+}
+    
+    .centered {
+        margin-bottom: 30px;
+    }
+    
+    .technique {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+     #style-rankings {
+        height: 560px;
+        margin-bottom: 150px;
+        width: 225px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    
+    #main-nav-bar {
+        display: none;
+    }
+    
+    #h1 {
+    margin-left: 2%;
+    font-size: 50px;
+    padding-top: 3px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+    color: midnightblue;
+}
+    
+        .icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        background: white;
+    }
+    
+    .dropbtn {
+            background-color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: -5px;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: white;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: inline-block;
+        margin-right: 3%;
+        margin-top: -50px;
+        float:right;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: lightgray;
+        font-family: 'Carrois Gothic SC', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-top: 27px;
+        height: 320px;
+        width: auto;
+        left: 0;
+        right: 0;
+
+    }
+
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 11px;
+    }
+    
+    .dropdown-content a:hover {
+        background:white;
+        text-decoration: none;
+    }
+    
+    .centered {
+    margin-bottom: 20px;
+}
+    
+    #img-title {
+        font-size: 36px;
+    }
+    
+.col-lg-4.col-md-4.col-sm-4.sparring {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .technique {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .spacer {
+        margin-bottom: 20px;
+    }
+    
+     #style-rankings {
+        height: 560px;
+        margin-bottom: 150px;
+        width: 225px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    #main-nav-bar {
+        display: none;
+    }
+    
+    #h1 {
+    margin-left: 3%;
+    font-size: 42px;
+    padding-top: 7px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+    color: midnightblue;
+}
+        .icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        background: white;
+    }
+    
+    .dropbtn {
+            background-color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 0;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: white;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: inline-block;
+        margin-right: 3%;
+        margin-top: -50px;
+        float:right;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: lightgray;
+        font-family: 'Carrois Gothic SC', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-top: 27px;
+        height: 320px;
+        width: auto;
+        left: 0;
+        right: 0; 
+            
+    }
+
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 11px;
+    }
+    
+    .dropdown-content a:hover {
+        background:white;
+        text-decoration: none;
+    }
+    
+    #slider {
+    padding-top: 100px;
+    margin-bottom: -105px;
+}
+    
+#img-title {
+    font-size: 32px;
+}
+    
+    .col-lg-4.col-md-4.col-sm-4.sparring {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .centered {
+        margin-bottom: 20px;
+    }
+    
+    .technique {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .spacer {
+        margin-bottom: 20px;
+    }
+    
+    #style-rankings {
+        height: 560px;
+        margin-bottom: 150px;
+        width: 225px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 100px) and (max-width: 375px) {
+    
+     #main-nav-bar {
+        display: none;
+    }
+    
+    #h1 {
+    margin-left: 3%;
+    font-size: 40px;
+    padding-top: 7px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 0px;
+    color: midnightblue;
+}
+        .icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        background: white;
+    }
+    
+    .dropbtn {
+            background-color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 0;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: white;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: inline-block;
+        margin-right: 3%;
+        margin-top: -50px;
+        float:right;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: lightgray;
+        font-family: 'Carrois Gothic SC', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-top: 27px;
+        height: 320px;
+        width: auto;
+        left: 0;
+        right: 0; 
+            
+    }
+
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 11px;
+    }
+    
+    .dropdown-content a:hover {
+        background:white;
+        text-decoration: none;
+    }
+    
+    #slider {
+    padding-top: 100px;
+    margin-bottom: -105px;
+}
+    
+    .col-lg-4.col-md-4.col-sm-4.sparring {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .centered {
+        margin-bottom: 20px;
+    }
+    
+    .technique {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .spacer {
+        margin-bottom: 20px;
+    }
+    
+    #style-rankings {
+        height: 560px;
+        margin-bottom: 150px;
+        width: 225px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
