@@ -5,6 +5,8 @@ include 'includes/header.php';
 
 <body>
     
+<div id="poomsae-img"></div>
+    
 <h1 class="inner-h2">POOMSAE</h1>
     
 <div id="content">

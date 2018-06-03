@@ -5,6 +5,8 @@ include 'includes/header.php';
 
 <body>
     
+<div id="rankings-img"></div>
+    
 <h1 class="inner-h2">COMMON BELT RANKINGS</h1>
     
 <div id="content">

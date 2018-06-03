@@ -25,11 +25,11 @@
     font-size: 50px;
     padding-top: 2px;
     font-family: 'Kanit', sans-serif;
-    letter-spacing: 3px;
-    color: midnightblue;
+    letter-spacing: 2px;
+    color: lightcyan;
 }
 
-.inner-h2-home {
+.inner-h2-home, .inner-h2 {
     padding: 50px 0 50px 0;
     position: relative;
     background: darkslategray;
@@ -38,17 +38,6 @@
     color: white;
     font-size: 42px;
     text-align: center;
-}
-
-.inner-h2 {
-    position: relative;
-    background: lightslategray;
-    font-family: 'Carrois Gothic SC', sans-serif;
-    margin-top: 0 !important;
-    color: white;
-    font-size: 42px;
-    text-align: center;
-    padding: 150px 0 50px 0;
 }
 
 h2 {
@@ -130,6 +119,46 @@ p {
 
 #home-img {
     background-image: url("../images/ma.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#history-img {
+    background-image: url("../images/history.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#techniques-img {
+    background-image: url("../images/techniques.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#poomsae-img {
+    background-image: url("../images/poomsae.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#rankings-img {
+    background-image: url("../images/rankings.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#benefits-img {
+    background-image: url("../images/benefits.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -444,13 +473,13 @@ figcaption {
     -webkit-text-stroke: 1.5px midnightblue;
 }
     
-    #h1 {
+#h1 {
     margin-left: 3%;
     font-size: 50px;
     padding-top: 3px;
     font-family: 'Kanit', sans-serif;
     letter-spacing: 2px;
-    color: midnightblue;
+    color: lightcyan;
 }
     
     main-nav-bar {
@@ -491,8 +520,8 @@ figcaption {
     font-size: 50px;
     padding-top: 3px;
     font-family: 'Kanit', sans-serif;
-    letter-spacing: 3px;
-    color: midnightblue;
+    letter-spacing: 2px;
+    color: lightcyan;
 }
     
     .icon {
@@ -596,8 +625,8 @@ figcaption {
     font-size: 50px;
     padding-top: 3px;
     font-family: 'Kanit', sans-serif;
-    letter-spacing: 3px;
-    color: midnightblue;
+    letter-spacing: 2px;
+    color: lightcyan;
 }
     
         .icon {
@@ -710,9 +739,10 @@ figcaption {
     font-size: 42px;
     padding-top: 7px;
     font-family: 'Kanit', sans-serif;
-    letter-spacing: 3px;
-    color: midnightblue;
+    letter-spacing: 2px;
+    color: lightcyan;
 }
+    
         .icon {
         display: block;
         width: 30px;
@@ -828,8 +858,8 @@ figcaption {
     font-size: 40px;
     padding-top: 7px;
     font-family: 'Kanit', sans-serif;
-    letter-spacing: 0px;
-    color: midnightblue;
+    letter-spacing: 2px;
+    color: lightcyan;
 }
         .icon {
         display: block;

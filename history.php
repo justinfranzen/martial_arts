@@ -5,6 +5,8 @@ include 'includes/header.php';
 
 <body>
     
+<div id="history-img"></div>
+    
 <h1 class="inner-h2">MARTIAL ARTS HISTORY</h1>
     
     <div id="content">

@@ -8,6 +8,8 @@ include 'includes/header.php';
 
 <body>
     
+<div id="benefits-img"></div>
+    
 <h1 class="inner-h2">BENEFITS</h1>
     
     <div id="content">

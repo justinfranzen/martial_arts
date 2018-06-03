@@ -5,6 +5,8 @@ include 'includes/header.php';
 
 <body>
     
+<div id="techniques-img"></div>
+    
 <h1 class="inner-h2">COMMON TECHNIQUES</h1>
     
 <div id="content">
