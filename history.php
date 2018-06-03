@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <body>
     
-<h1 class="inner-h2">History of Martial Arts</h1>
+<h1 class="inner-h2">MARTIAL ARTS HISTORY</h1>
     
     <div id="content">
         
@@ -17,7 +17,7 @@ include 'includes/header.php';
     
      <p>The history of martial arts around the world is complex. Most groups of people have had to defend themselves at some time and have developed fighting techniques for that purpose. Development of many martial arts was related to military development also. However, many of those techniques have been rendered technologically obsolete over the centuries. Even at an individual, rural level, the threat to the safety of a group of people is now more likely to come from modern weaponry such as automatic rifles than from men with swords. Furthermore, the preservation of a martial art requires many years of teaching at the hands of a good teacher to pass on the art for a single generation. So it is relatively unlikely that a particular martial art would survive and become popular in today's culture, and each art that has done so has a unique history.</p>
     
-    <h2>Early History</h2>
+    <h2>EARLY HISTORY</h2>
         
         <br>
         
@@ -32,7 +32,7 @@ include 'includes/header.php';
     <p>Some method of certification can be involved, where one's skills would be tested for mastery before being allowed to study further; in some systems, especially in China, there may not have been any such certifications, only years of close personal practice and evaluation under a master, much like an apprenticeship, until the master deems one's skills satisfactory. This pedagogy, while still preserved and respected in many traditional styles, has weakened to varying degrees in others and is even actively rejected by some schools, especially in the West. </p>
     
         
-    <h2>Modern History</h2>
+    <h2>MODERN HISTORY</h2>
         
         <br>
     

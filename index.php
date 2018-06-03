@@ -11,7 +11,7 @@ include 'includes/header.php';
 
 <div id="home-img"></div>
     
-<h2 class="inner-h2-home">Importance of Martial Arts</h2>
+<h1 class="inner-h2-home">Importance of Martial Arts</h1>
 
     <div id="home-content">
         

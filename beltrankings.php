@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <body>
     
-<h2 class="inner-h2">Common Martial Arts Belt Rankings</h2>
+<h1 class="inner-h2">COMMON BELT RANKINGS</h1>
     
 <div id="content">
     

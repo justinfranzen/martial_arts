@@ -61,6 +61,10 @@ h3 {
     font-size: 28px !important;
 }
 
+h2, h3 {
+    color: lightslategray !important;
+}
+
 #main-nav-bar {
     margin-top: -45px;
     height: 50px;
@@ -89,11 +93,11 @@ h3 {
 
 .main-nav li a:hover {
     color: lightblue;
-    transition-duration: .3s;
+    transition-duration: .5s;
 }
 
 .main-nav li a:not(:hover){
-    transition-duration: .3s;
+    transition-duration: .5s;
 }
 
 .dropdown {
@@ -148,6 +152,10 @@ p {
     margin: 75px auto 100px auto;
 }
 
+.left {
+    margin-left: -15px;
+}
+
 .col-lg-8.col-md-8.col-sm-8 {
     padding-left: 0;
 }
@@ -176,7 +184,7 @@ p {
     display: block;
     margin: auto;
     max-width: 100%;
-    width: 250px;
+    width: 225px;
 }
 
 .rank-img {

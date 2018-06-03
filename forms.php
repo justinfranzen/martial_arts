@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <body>
     
-<h2 class="inner-h2">Poomsae</h2>
+<h1 class="inner-h2">POOMSAE</h1>
     
 <div id="content">
         
