@@ -23,7 +23,7 @@
 #h1 {
     margin-left: 3%;
     font-size: 50px;
-    padding-top: 3px;
+    padding-top: 2px;
     font-family: 'Kanit', sans-serif;
     letter-spacing: 3px;
     color: midnightblue;
@@ -32,7 +32,7 @@
 .inner-h2-home {
     padding: 50px 0 50px 0;
     position: relative;
-    background: #008B8B;
+    background: darkslategray;
     font-family: 'Carrois Gothic SC', sans-serif;
     margin-top: 0 !important;
     color: white;
@@ -42,7 +42,7 @@
 
 .inner-h2 {
     position: relative;
-    background: #008B8B;
+    background: lightslategray;
     font-family: 'Carrois Gothic SC', sans-serif;
     margin-top: 0 !important;
     color: white;
@@ -88,7 +88,12 @@ h3 {
 }
 
 .main-nav li a:hover {
-    color: gray;
+    color: lightblue;
+    transition-duration: .3s;
+}
+
+.main-nav li a:not(:hover){
+    transition-duration: .3s;
 }
 
 .dropdown {
@@ -135,7 +140,7 @@ p {
     left: 0;
     right: 0;
     text-align: center;
-    -webkit-text-stroke: 1.2px #008B8B;
+    -webkit-text-stroke: 1.5px midnightblue;
 }
 
 #inner-content {
@@ -143,8 +148,8 @@ p {
     margin: 75px auto 100px auto;
 }
 
-.centered {
-    
+.col-lg-8.col-md-8.col-sm-8 {
+    padding-left: 0;
 }
 
 .row {
@@ -283,6 +288,7 @@ figcaption {
 .benefit-bgcolor {
     background: rgba(128,128,128, .3);
     padding: 0 60px 100px 30px;
+    box-shadow: 0px 0px 30px 0px gray;
 }
 
 #benefit {
@@ -308,7 +314,7 @@ figcaption {
 
 #footer {
     height: 150px;
-    background: navy;
+    background: lightslategray;
     width: 100%;
 }
 
@@ -392,11 +398,11 @@ figcaption {
         position: fixed;
         background-color: lightgray;
         font-family: 'Carrois Gothic SC', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         margin-left: auto;
         margin-top: 27px;
-        height: 320px;
+        height: auto;
         width: auto;
         left: 0;
         right: 0;
@@ -435,7 +441,7 @@ figcaption {
     font-size: 50px;
     padding-top: 3px;
     font-family: 'Kanit', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: midnightblue;
 }
     
@@ -519,11 +525,11 @@ figcaption {
         position: fixed;
         background-color: lightgray;
         font-family: 'Carrois Gothic SC', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         margin-left: auto;
         margin-top: 27px;
-        height: 320px;
+        height: auto;
         width: auto;
         left: 0;
         right: 0;
@@ -624,11 +630,11 @@ figcaption {
         position: fixed;
         background-color: lightgray;
         font-family: 'Carrois Gothic SC', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         margin-left: auto;
         margin-top: 27px;
-        height: 320px;
+        height: auto;
         width: auto;
         left: 0;
         right: 0;
@@ -737,11 +743,11 @@ figcaption {
         position: fixed;
         background-color: lightgray;
         font-family: 'Carrois Gothic SC', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         margin-left: auto;
         margin-top: 27px;
-        height: 320px;
+        height: auto;
         width: auto;
         left: 0;
         right: 0; 
@@ -855,11 +861,11 @@ figcaption {
         position: fixed;
         background-color: lightgray;
         font-family: 'Carrois Gothic SC', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         margin-left: auto;
         margin-top: 27px;
-        height: 320px;
+        height: auto;
         width: auto;
         left: 0;
         right: 0; 
