@@ -119,50 +119,33 @@ p {
 
 #home-img {
     background-image: url("../images/ma.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
 #history-img {
     background-image: url("../images/history.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
 #techniques-img {
     background-image: url("../images/techniques.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
 #poomsae-img {
     background-image: url("../images/poomsae.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
 #rankings-img {
     background-image: url("../images/rankings.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
 }
 
 #benefits-img {
     background-image: url("../images/benefits.jpg");
+}
+
+#home-img, #history-img, #techniques-img, #poomsae-img, #rankings-img, #benefits-img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 450px;
 }
 
 #img-title {
